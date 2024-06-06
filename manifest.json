@@ -1,5 +1,5 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 3,
     "name": "Not An Ad Blocker",
     "version": "1.0",
     "description": " Trying to speed up ads and skips them automatically.",
@@ -9,18 +9,18 @@
       "scripting"
     ],
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "./background.js"
     },
     "content_scripts": [
       {
         "matches": ["*://www.youtube.com/*"],
-        "js": ["content.js"]
+        "js": ["./content.js"]
       }
     ],
     "action": {
-      "default_popup": "popup.html",
+      "default_popup": "./popup.html",
       "default_icon": {
-        "128": "icon.png"
+        "128": "./icon.png"
       }
     }
   }

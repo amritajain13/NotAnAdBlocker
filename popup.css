@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+  }
+  
