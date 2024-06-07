@@ -12,7 +12,7 @@ NotAnAdBlocker is a Chrome extension designed to enhance your YouTube viewing ex
 
 1. **Clone or download this repository**:
     ```bash
-    git clone https://github.com/yourusername/NotAnAdBlocker.git
+    git clone https://github.com/Goutam-04/NotAnAdBlocker.git
     ```
 2. **Open Chrome and navigate to the Extensions page**:
     - Click on the three dots in the top-right corner.
