@@ -46,7 +46,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
-        <Video videoId="gPLrIJgsJlw" />
+        <Video videoId="2vLlgHQ3kds" />
         </div>
       </Container>
     </>
